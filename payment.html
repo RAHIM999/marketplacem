@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        body{
+            color: orange;
+            text-align: center;
+            background:rgb(241, 219, 176);
+        }
+        .body card{
+            text-align: center;
+        }
+        .card{
+            box-shadow: 3px 6px 10px black;
+
+            border: 5px solid orange;
+            border-radius: 20px;
+            padding: 6px;
+margin: 0 auto;           
+ width:300px;
+            height: 280px;
+            background:rgb(240, 167, 31);
+        }
+        .card h1{
+            color: blue;
+        }
+       .pay{
+           padding: 15px;
+            background:green;
+           border: 3px solid rgb(240, 167, 31); 
+           border-radius:15px;
+           margin-top:10px;
+           font-size: medium;
+           color: honeydew;
+           
+       }
+       .pay:hover{
+           background-color: greenyellow;
+           color: orange;
+           transition: 2s;
+       }
+    </style>
+    
+</head>
+<body>
+    <h1>Pay Here By Card</h1>
+    <div class="card">
+        <h1><i>Payment</i></h1>
+        <form class="carddet"><input type="number" placeholder="Credit Card Number" required></form></br>
+        <form class="carddet"><input type="number" placeholder="CVV Code" required></form></br>
+        <form class="carddet"><input type="number" placeholder="Expiary Date" required></form></br>
+       <a href="#"><input class="pay" type="submit" value="Pay Now"></a> 
+
+    </div>
+</body>
+</html>

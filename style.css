@@ -1,0 +1,69 @@
+/*Base style starts*/
+body{
+   
+    font-family: 'Roboto', sans-serif;
+}
+/*header section style*/
+.header{
+    background:#333;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.header ul{
+    margin-top: 15px;
+}
+.header ul li{
+    display: inline;
+    margin: 5px 5px;
+;}
+.header img{
+    height: 64px;
+    width: 64px;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-top: auto;
+    margin-right: 10px;
+    font-size: large;
+    color: ORANGE;
+    border: 2px solid #333;
+    border-radius: 9px;
+    padding:0px;
+}
+.header ul li a:hover{
+    color: WHITE;
+    background:ORANGE;
+    transition: color 1s;
+}
+.header h1{
+    color: orange;
+}
+.foot{
+    background-color: #333;
+    text-align: center;
+    color: orange;
+    padding: 10px 0px;
+}
+body ul li{
+    display: inline;
+    margin-top: 10px;
+}
+section ul li a{
+    text-decoration: none;
+    border: 3px gray solid;
+    border-radius: 8px;
+    padding: 5px;
+    background:gray;
+    color: white;
+    font-size: large;
+}
+section ul li a:hover{
+    background:orange;
+    transition: color 2s;
+}
+.main{
+    background:rgb(247, 236, 236);
+}
+
+
